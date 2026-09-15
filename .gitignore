@@ -15,7 +15,8 @@
 
 # next.js
 /.next/
-/out/
+
+# Keep /out in git so Hostinger can deploy the static site from GitHub.
 
 # production
 /build

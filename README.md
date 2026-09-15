@@ -19,4 +19,16 @@ Edit one file: `config/loveStory.ts`
 - Memory photos, captions, and dates
 - Love letter, wishes, and the final surprise
 
-Put photos in `public/images/` (`memory1.jpg` … `couple.jpg`, `hero.jpg`, `secret.jpg`).
+Put photos in `public/images/` (`memory1.jpg` … `puzzle.jpg`, `reveal.jpg`, `secret.jpg`).
+
+## Upload to Hostinger (static)
+
+This is a static site. It does **not** use a Node.js app slot.
+
+The ready-to-host files are in the `out` folder on GitHub.
+
+- If Hostinger asks for a directory, choose `out`
+- Or upload **everything inside `out`** into `public_html`
+
+`index.html` must be at the website root. Do not use a Node.js app.
+
